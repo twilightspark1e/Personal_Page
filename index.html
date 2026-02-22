@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Minimalist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="back-btn" id="backBtn">← BACK</div>
+
+    <nav class="side-menu" id="sideMenu">
+        <a class="menu-link active" data-target="page-home">Home / About</a>
+        <a class="menu-link" data-target="project-1">Sceaux Explorer</a>
+        <a class="menu-link" data-target="project-2">LoL Visualization</a>
+        <a class="menu-link" data-target="project-3">Serious Game</a>
+        <a class="menu-link" data-target="project-4">Project 4 (Upcoming)</a>
+        <a class="menu-link" data-target="project-5">Project 5 (Upcoming)</a>
+        <a class="menu-link" data-target="page-gaming">Gaming Log</a>
+    </nav>
+
+    <section class="page-section is-active" id="page-home">
+        <div class="home-layout">
+            
+            <div class="home-intro" id="about-section">
+                <img src="" alt="Profile Image" class="intro-image">
+                
+                <h1>Hi, I'm HU Renjie.</h1>
+                
+                <p class="intro-text">I am a designer and game enthusiast exploring how culture shapes interactive experiences. I find myself constantly analyzing the 'why' behind social dynamics, striving to translate these observations into interactive systems that can either illuminate or solve real-world challenges. Currently pursuing a Master's degree in Interaction, Graphics and Design at Institut Polytechnique de Paris, where I combine design practice with critical analysis to understand games as cultural objects.
+                <div class="contact-group">
+                    <a href="mailto:renjie.hu@ip-paris.fr" class="btn-blue">Contact Me / Email</a>
+                </div>
+
+                <div class="intro-interests">
+                    <h3>Interests & Exploration</h3>
+                    <ul class="interests-list">
+                        <li>Game Design</li>
+                        <li>Digital Heritage & Mediation</li>
+                        <li>Digital Humanities</li>
+                        <li>UX & HCI Research</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="home-projects-wrapper">
+                
+                <div class="project-row" id="project-1">
+                    <div class="project-visual">
+                        <img src="Sceaux.jpg" alt="Sceaux Explorer">
+                    </div>
+                    <div class="project-text">
+                        <h2>Sceaux Explorer</h2>
+                        <h3>Location-based AR / Digital Heritage</h3>
+                        <p>[在此补充项目描述：如设计目标、技术实现、用户交互体验等]</p>
+                    </div>
+                </div>
+                
+                <div class="project-row" id="project-2">
+                    <div class="project-visual">
+                        <img src="Visualization.png" alt="League of Legends Rank Meta Analysis">
+                    </div>
+                    <div class="project-text">
+                        <h2>League of Legends</h2>
+                        <h3>Rank Meta Analysis & Visualization</h3>
+                        <p>[在此补充数据可视化的核心洞察或研究方法]</p>
+                        <a href="League of Legends Data Visualization.pdf" target="_blank" class="btn-blue" style="margin-top: 20px;">View Full PDF</a>
+                    </div>
+                </div>
+                
+                <div class="project-row" id="project-3">
+                    <div class="project-visual">
+                        <img src="Serious Game.png" alt="Serious Game">
+                    </div>
+                    <div class="project-text">
+                        <h2>Serious Game</h2>
+                        <h3>Game Design / Cultural Object</h3>
+                        <p>[在此补充游戏机制、受众群体或跨文化研究结论]</p>
+                    </div>
+                </div>
+
+                <div class="project-row" id="project-4">
+                    <div class="project-visual">
+                        <img src="" alt="Upcoming Project 4">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project Title 4</h2>
+                        <h3>Category / Domain</h3>
+                        <p>[在此补充新项目的描述、目标、技术实现等]</p>
+                    </div>
+                </div>
+
+                <div class="project-row" id="project-5">
+                    <div class="project-visual">
+                        <img src="" alt="Upcoming Project 5">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project Title 5</h2>
+                        <h3>Category / Domain</h3>
+                        <p>[在此补充新项目的描述、目标、技术实现等]</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="page-gaming">
+        <div class="gaming-layout">
+            <div class="gallery-header">
+                <h1>Gaming Log</h1>
+                <p>Virtual Worlds & Achievements</p>
+            </div>
+            
+            <div class="gaming-grid">
+                <div class="game-item">
+                    <img class="game-cover" src="R6.jpg" alt="Rainbow Six">
+                    <div class="game-info">
+                        <h3>Rainbow Six</h3>
+                        <p class="game-achievement">Achievement: Grand Prize Winner | K/D: 1.5</p>
+                        <p class="game-desc">PONG PONG PONG</p>
+                    </div>
+                </div>
+
+                <div class="game-item">
+                    <img class="game-cover" src="Overwatch.png" alt="OverWatch">
+                    <div class="game-info">
+                        <h3>OverWatch</h3>
+                        <p class="game-achievement">Achievement: Master for all positions in Rank Game</p>
+                        <p class="game-desc"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
