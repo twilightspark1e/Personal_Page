@@ -5,7 +5,7 @@ const sideMenu = document.getElementById('sideMenu');
 const hudToggle = document.getElementById('hudToggle');
 
 // 初始状态下菜单是收起的
-let isMenuCollapsed = true;
+let isMenuCollapsed = false;
 
 // 1. 菜单折叠/展开控制
 hudToggle.addEventListener('click', () => {
