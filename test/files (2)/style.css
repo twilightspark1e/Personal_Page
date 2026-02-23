@@ -256,7 +256,7 @@ body {
 }
 
 .project-text { 
-    width: 42%;
+    width: 42%;  /* 52% visual + 42% text + 6vw gap = fits well */
     padding-top: 0;
 }
 .project-text h2 { 
@@ -356,11 +356,10 @@ body {
         flex-direction: row; flex-wrap: wrap; gap: 15px; 
         background: rgba(255,255,255,0.85);
         backdrop-filter: blur(15px);
+        transform: none !important; opacity: 1 !important; pointer-events: auto !important;
         border-radius: 0 0 16px 16px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     }
-    /* 移动端菜单始终可见 */
-    .hud-menu.is-collapsed { transform: none; opacity: 1; pointer-events: auto; }
     /* 移动端隐藏横向无法展示的线条和小点 */
     .hud-line, .node-dot, .menu-divider { display: none; }
     .node-label { opacity: 1; transform: translateX(0); font-size: 13px; margin-left: 0; }

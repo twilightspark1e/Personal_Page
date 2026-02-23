@@ -69,16 +69,14 @@ const observerOptions = {
     threshold: 0
 };
 
-// 【修复逻辑】：滚动监听仅监听主界面的 00 到 04 (现在增加06)
+// 【修复逻辑】：滚动监听仅监听主界面的 00 到 04
 const sectionsToObserve = [
     { id: 'about-section', target: 'page-home' },
     { id: 'project-1', target: 'project-1' },
     { id: 'project-2', target: 'project-2' },
     { id: 'project-3', target: 'project-3' },
     { id: 'project-4', target: 'project-4' },
-    { id: 'project-5', target: 'project-5' },
-    { id: 'project-6', target: 'project-6' },  // 新增项目6
-    { id: 'project-7', target: 'project-7' }
+    { id: 'project-5', target: 'project-5' }
 ];
 
 const observer = new IntersectionObserver((entries) => {
